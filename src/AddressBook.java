@@ -11,7 +11,7 @@ public class AddressBook {
        BuddyInfo q= new BuddyInfo("xinyuchen","southgate","101031031");
        ad.addBuddy(q);
        ad.removeBuddy(0);
-         
+       System.out.println("Address book"); 
 	}
     public void addBuddy(BuddyInfo aa) {
     	if(aa != null) {
